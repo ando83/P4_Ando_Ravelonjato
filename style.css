@@ -677,8 +677,12 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
+
+.text-img{
+    font-size: 22px;
+   }
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -707,7 +711,6 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
-  
  }    
 
 h3 {
