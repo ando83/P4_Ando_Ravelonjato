@@ -373,6 +373,7 @@ p {
 
 blockquote p{
     font-size: 22px;
+
 }  
 
 cite{
@@ -731,8 +732,8 @@ a {
     margin: auto ;
 }
 
-.text-center p{                 /**/
-   color: #FFFFFF!important;
+.text-color{
+    color:#FFFFFF!important;
 }
 
 h2 {
