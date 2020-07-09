@@ -273,7 +273,7 @@ a:hover {
 }
 
 .row-no-gutters {
-    margin-right: 0;
+    margin-right: 0;       /**/
     margin-left: 0;
 }
 
@@ -360,6 +360,37 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+.text-img{
+    font-size: 22px;
+   }
+
+blockquote p{
+    font-size: 22px;
+}  
+
+cite{
+    font-size: 20px;
+    color: #333333;
+}
+
+.bloc-footer{
+   font-size: 18px;
+}
+
+.bloc-footer p{
+   font-size: 20px;
+   color: #FFFFFF!important;
+}
+
+.bloc-footer a{
+   color:#000000!important;
 }
 
 @media (min-width: 768px) {
@@ -676,23 +707,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 16px;
-}
-
-.text-img{
-    font-size: 22px;
-   }
-
-blockquote p{
-    font-size: 22px;
-}  
-
-cite{
-    font-size: 20px;
-    color: #333333;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -714,7 +728,11 @@ cite{
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto ;
+}
+
+.text-center p{                 /**/
+   color: #FFFFFF!important;
 }
 
 h2 {
@@ -859,6 +877,7 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
