@@ -394,6 +394,13 @@ cite{
    color:#000000!important;
 }
 
+.text-picture{
+
+    font-size: 25px;
+   
+    
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
